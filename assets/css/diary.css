@@ -1,0 +1,77 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  background: #333;
+  transition: width 0.3s;
+  overflow-x: hidden;
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sidebar .menu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.sidebar .menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.diary-container {
+  margin-left: 60px;
+  padding: 20px;
+}
+
+.diary-container h2 {
+  margin-bottom: 20px;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+button#saveDiary {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4b8df8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.saved-diary {
+  margin-top: 30px;
+  padding: 15px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}

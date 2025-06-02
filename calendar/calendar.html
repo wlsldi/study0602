@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>캘린더</title>
+  <link rel="stylesheet" href="../assets/css/calendar.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <button id="toggleSidebar">☰</button>
+    <nav class="menu">
+      <a href="../login/index.html">로그인</a>
+      <a href="calendar.html">캘린더</a>
+      <a href="../diary/diary.html">나만의 일정</a>
+    </nav>
+  </div>
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button id="prevMonth">&lt;</button>
+      <h2 id="monthYear">6월</h2>
+      <button id="nextMonth">&gt;</button>
+    </div>
+    <div class="calendar-grid" id="calendarGrid">
+      <!-- 날짜가 JS로 들어감 -->
+    </div>
+  </div>
+
+  <script src="../assets/js/calendar.js"></script>
+</body>
+</html>
